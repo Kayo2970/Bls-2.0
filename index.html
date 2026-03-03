@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autovent '26 — Automotive Expo</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="brand-icon"><i class="fa-solid fa-car-side"></i></span>
+        <span class="brand-text">AUTO<strong>VENT</strong></span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#section-hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-experts">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-tickets">Tickets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section-location">Contact</a></li>
+        </ul>
+        <a href="#section-tickets" class="btn btn-ticket">Buy Ticket</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="section-hero">
+    <div class="hero-overlay"></div>
+    <div class="circle-gradient"></div>
+    <div class="circle-gradient-2"></div>
+    <div class="container h-100 position-relative">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-8">
+          <p class="hero-date"><i class="fa-regular fa-calendar"></i> &nbsp; December 3rd to 7th, 2026 &nbsp;|&nbsp; <i class="fa-solid fa-location-dot"></i> &nbsp; Los Angeles, California</p>
+          <h1 class="hero-title">Autovent <span class="accent">'26</span></h1>
+          <p class="hero-sub">A journey through time, technology, and design excellence — where engineering marvels meet artistic vision.</p>
+          <div class="hero-brands">
+            <span>Audi</span><span>BMW</span><span>Bentley</span><span>Honda</span><span>Jeep</span><span>Toyota</span><span>Suzuki</span><span>Range Rover</span><span>Ford</span>
+          </div>
+          <div class="hero-cta mt-4">
+            <a href="#section-tickets" class="btn btn-primary-accent me-3">Get Ticket <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <a href="#section-about" class="btn btn-outline-light-custom">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint"><i class="fa-solid fa-chevron-down"></i></div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="section-about" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="about-img-wrap">
+            <div class="about-img-main">
+              <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=700&q=80" alt="Autovent" class="img-fluid rounded-card" />
+            </div>
+            <div class="about-img-badge">
+              <span class="badge-num">17+</span>
+              <span class="badge-lbl">Years of Excellence</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-tag">About the Expo</p>
+          <h2 class="section-title">Welcome to <span class="accent">Autovent</span> '26</h2>
+          <p class="section-body">
+            Autovent is the premier automotive expo of the decade, bringing together the world's most iconic brands, visionary engineers, and passionate enthusiasts under one roof in Los Angeles.
+          </p>
+          <p class="section-body">
+            From electric vehicle innovations to timeless classic restorations, Autovent '26 celebrates every facet of the automotive tapestry — blending heritage with the future of mobility.
+          </p>
+          <div class="row g-3 mt-2">
+            <div class="col-6">
+              <div class="feature-item">
+                <i class="fa-solid fa-car-burst accent"></i>
+                <span>Live Driving Demos</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feature-item">
+                <i class="fa-solid fa-microphone accent"></i>
+                <span>Industry Keynotes</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feature-item">
+                <i class="fa-solid fa-trophy accent"></i>
+                <span>Award Ceremonies</span>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feature-item">
+                <i class="fa-solid fa-handshake accent"></i>
+                <span>Networking Events</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section id="section-stats" class="section-pad section-dark">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-circle">
+              <span class="stat-num" data-target="9">0</span>
+            </div>
+            <p class="stat-label">Automotive Brands</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-circle">
+              <span class="stat-num" data-target="42">0</span>
+            </div>
+            <p class="stat-label">Countries Participated</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-circle">
+              <span class="stat-num" data-target="120">0</span>
+            </div>
+            <p class="stat-label">Automotive Figures</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-circle">
+              <span class="stat-num" data-target="5">0</span>
+            </div>
+            <p class="stat-label">Days of Expo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERTS ========== -->
+  <section id="section-experts" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Meet the Minds</p>
+        <h2 class="section-title">Presenting <span class="accent">Experts</span> in the Automotive Industry</h2>
+        <p class="section-subtitle">World-class engineers, designers, and innovators sharing their vision for the future of mobility.</p>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>James Hartwell</h5>
+              <p>Chief Design Officer, BMW</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Sofia Mendez</h5>
+              <p>EV Innovation Lead, Tesla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Hiroshi Tanaka</h5>
+              <p>VP Engineering, Toyota</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Amara Okafor</h5>
+              <p>Sustainability Director, Bentley</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Marco Ferretti</h5>
+              <p>Head of Design, Audi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Claire Dubois</h5>
+              <p>Autonomous Tech Lead, Honda</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Daniel Krauss</h5>
+              <p>Racing Director, Ford Performance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="expert-card">
+            <div class="expert-img">
+              <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="Expert" />
+              <div class="expert-overlay">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="expert-info">
+              <h5>Yuki Nakamura</h5>
+              <p>Concept Design, Range Rover</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SCHEDULE ========== -->
+  <section id="section-schedule" class="section-pad section-dark">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Program</p>
+        <h2 class="section-title">Event <span class="accent">Schedule</span></h2>
+        <p class="section-subtitle">Five days of curated sessions, keynotes, and live demonstrations.</p>
+      </div>
+
+      <!-- Day Tabs -->
+      <ul class="nav schedule-tabs justify-content-center mb-4" id="scheduleTabs">
+        <li class="nav-item"><a class="nav-link active" data-day="day1">Day 1 — Dec 3</a></li>
+        <li class="nav-item"><a class="nav-link" data-day="day2">Day 2 — Dec 4</a></li>
+        <li class="nav-item"><a class="nav-link" data-day="day3">Day 3 — Dec 5</a></li>
+        <li class="nav-item"><a class="nav-link" data-day="day4">Day 4 — Dec 6</a></li>
+        <li class="nav-item"><a class="nav-link" data-day="day5">Day 5 — Dec 7</a></li>
+      </ul>
+
+      <!-- Schedule Content -->
+      <div id="scheduleContent">
+
+        <div class="schedule-day active" id="day1">
+          <div class="schedule-item">
+            <div class="sched-time">08:00 — 09:30</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Opening Ceremony & Welcome Keynote</h5>
+                <p>James Hartwell — Chief Design Officer, BMW</p>
+                <span class="sched-tag">Keynote</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">10:00 — 12:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>The EV Revolution: What's Next?</h5>
+                <p>Sofia Mendez — EV Innovation Lead, Tesla</p>
+                <span class="sched-tag">Talk</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">14:00 — 16:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Toyota Hybrid Systems: A Deep Dive</h5>
+                <p>Hiroshi Tanaka — VP Engineering, Toyota</p>
+                <span class="sched-tag">Workshop</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">19:00 — 22:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Evening Gala & Brand Showcase</h5>
+                <p>All Exhibitors</p>
+                <span class="sched-tag accent-tag">Special Event</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="schedule-day" id="day2" style="display:none">
+          <div class="schedule-item">
+            <div class="sched-time">09:00 — 11:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Sustainable Luxury: Bentley's Green Roadmap</h5>
+                <p>Amara Okafor — Sustainability Director, Bentley</p>
+                <span class="sched-tag">Talk</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">11:30 — 13:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Ford Performance Live Track Day</h5>
+                <p>Daniel Krauss — Racing Director, Ford Performance</p>
+                <span class="sched-tag accent-tag">Live Demo</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">15:00 — 17:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Audi Design Language: Form Follows Future</h5>
+                <p>Marco Ferretti — Head of Design, Audi</p>
+                <span class="sched-tag">Workshop</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="schedule-day" id="day3" style="display:none">
+          <div class="schedule-item">
+            <div class="sched-time">08:30 — 10:30</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Autonomous Driving: Honda's Vision 2030</h5>
+                <p>Claire Dubois — Autonomous Tech Lead, Honda</p>
+                <span class="sched-tag">Keynote</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">12:00 — 14:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/women/81.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Range Rover Concept Unveiling</h5>
+                <p>Yuki Nakamura — Concept Design, Range Rover</p>
+                <span class="sched-tag accent-tag">Unveiling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="schedule-day" id="day4" style="display:none">
+          <div class="schedule-item">
+            <div class="sched-time">09:00 — 11:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Classic Cars & Heritage: A Tribute</h5>
+                <p>James Hartwell</p>
+                <span class="sched-tag">Panel</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">14:00 — 18:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Networking Summit & Industry Leaders Roundtable</h5>
+                <p>All Speakers</p>
+                <span class="sched-tag">Networking</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="schedule-day" id="day5" style="display:none">
+          <div class="schedule-item">
+            <div class="sched-time">10:00 — 12:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Awards Ceremony: Best in Show 2026</h5>
+                <p>All Exhibitors</p>
+                <span class="sched-tag accent-tag">Awards</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">14:00 — 16:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Future of Mobility: Closing Keynote</h5>
+                <p>Daniel Krauss</p>
+                <span class="sched-tag">Keynote</span>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-item">
+            <div class="sched-time">18:00 — 22:00</div>
+            <div class="sched-body">
+              <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="" class="sched-avatar" />
+              <div>
+                <h5>Closing Gala & Farewell Dinner</h5>
+                <p>All Attendees</p>
+                <span class="sched-tag accent-tag">Special Event</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TICKETS ========== -->
+  <section id="section-tickets" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Get Your Pass</p>
+        <h2 class="section-title">Ticket <span class="accent">Pricing</span></h2>
+        <p class="section-subtitle">Choose the experience that fits your passion for automotive excellence.</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <div class="ticket-header">
+              <span class="ticket-type">One Day</span>
+              <div class="ticket-price">$<span>49</span></div>
+              <p>Perfect for a focused experience</p>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fa-solid fa-check"></i> Access to 1 day of your choice</li>
+              <li><i class="fa-solid fa-check"></i> General exhibition floor</li>
+              <li><i class="fa-solid fa-check"></i> Welcome kit & lanyard</li>
+              <li><i class="fa-solid fa-check"></i> Parking access</li>
+              <li class="disabled"><i class="fa-solid fa-times"></i> VIP lounge access</li>
+              <li class="disabled"><i class="fa-solid fa-times"></i> Keynote sessions</li>
+            </ul>
+            <a href="#" class="btn btn-ticket-buy">Book Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card ticket-featured">
+            <div class="ticket-badge">Most Popular</div>
+            <div class="ticket-header">
+              <span class="ticket-type">Three Days</span>
+              <div class="ticket-price">$<span>89</span></div>
+              <p>Best value for enthusiasts</p>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fa-solid fa-check"></i> Access to any 3 days</li>
+              <li><i class="fa-solid fa-check"></i> General exhibition floor</li>
+              <li><i class="fa-solid fa-check"></i> Welcome kit & lanyard</li>
+              <li><i class="fa-solid fa-check"></i> Parking access</li>
+              <li><i class="fa-solid fa-check"></i> Keynote sessions</li>
+              <li class="disabled"><i class="fa-solid fa-times"></i> VIP lounge access</li>
+            </ul>
+            <a href="#" class="btn btn-ticket-buy">Book Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <div class="ticket-header">
+              <span class="ticket-type">All Days</span>
+              <div class="ticket-price">$<span>109</span></div>
+              <p>The ultimate expo experience</p>
+            </div>
+            <ul class="ticket-features">
+              <li><i class="fa-solid fa-check"></i> Full 5-day access</li>
+              <li><i class="fa-solid fa-check"></i> General exhibition floor</li>
+              <li><i class="fa-solid fa-check"></i> Welcome kit & lanyard</li>
+              <li><i class="fa-solid fa-check"></i> Parking access</li>
+              <li><i class="fa-solid fa-check"></i> All keynote sessions</li>
+              <li><i class="fa-solid fa-check"></i> VIP lounge access</li>
+            </ul>
+            <a href="#" class="btn btn-ticket-buy">Book Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section-pad section-dark">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">What People Say</p>
+        <h2 class="section-title">Attendee <span class="accent">Testimonials</span></h2>
+      </div>
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+              <p>"Autovent was absolutely incredible. The level of innovation on display was unlike anything I've seen at any auto show in the world."</p>
+              <div class="testi-author">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />
+                <div>
+                  <strong>Robert Chen</strong>
+                  <span>Automotive Journalist, Motor Trend</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+              <p>"The networking opportunities alone were worth every penny. I connected with industry leaders from 15 different countries over 5 days."</p>
+              <div class="testi-author">
+                <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="" />
+                <div>
+                  <strong>Linda Park</strong>
+                  <span>CEO, AutoTech Ventures</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+              <p>"As a first-time attendee, I was blown away by the scale and quality of the event. The organization was flawless and the cars were breathtaking."</p>
+              <div class="testi-author">
+                <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="" />
+                <div>
+                  <strong>Marcus Williams</strong>
+                  <span>Car Enthusiast & Collector</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+              <p>"The EV showcase was a game-changer. Seeing the future of automotive technology up close is an experience that truly changed my perspective."</p>
+              <div class="testi-author">
+                <img src="https://randomuser.me/api/portraits/women/67.jpg" alt="" />
+                <div>
+                  <strong>Priya Sharma</strong>
+                  <span>EV Researcher, Stanford University</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section id="section-gallery" class="section-pad">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Visual Highlights</p>
+        <h2 class="section-title">Event <span class="accent">Gallery</span></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1541443131876-3346ee895616?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&q=80" alt="Gallery" />
+          <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SPONSORS ========== -->
+  <section class="section-pad section-dark sponsors-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <p class="section-tag">Our Partners</p>
+        <h2 class="section-title">Proud <span class="accent">Sponsors</span></h2>
+      </div>
+      <div class="row align-items-center justify-content-center g-4">
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">AUDI</div></div>
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">BMW</div></div>
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">BENTLEY</div></div>
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">TOYOTA</div></div>
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">HONDA</div></div>
+        <div class="col-6 col-md-4 col-lg-2"><div class="sponsor-logo">FORD</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCATION / CONTACT ========== -->
+  <section id="section-location" class="section-pad">
+    <div class="container">
+      <div class="row g-5 align-items-start">
+        <div class="col-lg-6">
+          <p class="section-tag">Find Us</p>
+          <h2 class="section-title">Location & <span class="accent">Contact</span></h2>
+          <p class="section-body">Join us at the iconic Los Angeles Convention Center — the heart of the automotive world for 5 unforgettable days.</p>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot accent"></i>
+              <div>
+                <strong>Venue</strong>
+                <p>100 S Main ST, Los Angeles, CA 90012</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-phone accent"></i>
+              <div>
+                <strong>Phone</strong>
+                <p>+1 333 929 6000</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope accent"></i>
+              <div>
+                <strong>Email</strong>
+                <p>contact@autovent26.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-regular fa-calendar accent"></i>
+              <div>
+                <strong>Dates</strong>
+                <p>December 3–7, 2026</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links mt-4">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <form class="contact-form" id="contactForm">
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required />
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Subject" />
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary-accent w-100">Send Message <i class="fa-solid fa-paper-plane ms-2"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <a class="navbar-brand footer-brand" href="#">
+              <span class="brand-icon"><i class="fa-solid fa-car-side"></i></span>
+              <span class="brand-text">AUTO<strong>VENT</strong></span>
+            </a>
+            <p class="footer-desc">The premier automotive expo bringing the world's most iconic brands together in Los Angeles.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <ul class="footer-links">
+              <li><a href="#section-about">About</a></li>
+              <li><a href="#section-experts">Speakers</a></li>
+              <li><a href="#section-schedule">Schedule</a></li>
+              <li><a href="#section-tickets">Tickets</a></li>
+              <li><a href="#section-gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-md-end">
+            <p class="footer-cta-text">Ready to experience automotive excellence?</p>
+            <a href="#section-tickets" class="btn btn-primary-accent">Get Your Ticket</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2026 — <strong>Autovent</strong>. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox overlay -->
+  <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
